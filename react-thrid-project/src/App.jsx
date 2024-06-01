@@ -1,7 +1,7 @@
-import {FunctionComponent} from "./functionComponent"
+import {ClassComponent} from "./classComponent"
 
 function App() {
-  return <FunctionComponent />
+  return <ClassComponent />
 }
 
 export default App;
