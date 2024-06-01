@@ -1,6 +1,7 @@
-function App() {
+import {FunctionComponent} from "./functionComponent"
 
-  return <h1>Hi</h1>
+function App() {
+  return <FunctionComponent />
 }
 
 export default App;
