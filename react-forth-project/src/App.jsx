@@ -7,11 +7,11 @@ export default function App() {
   const childComponent = show ? <Child /> : null
 
   return (
-    <div>
-      <button onClick={() => setShow(currentShow => !currentShow)}>
-        Show/Hide
-      </button>
-      {childComponent}
-    </div>
+      <div>
+        <button onClick={() => setShow(currentShow => !currentShow)}>
+          Show/Hide
+        </button>
+        {childComponent}
+      </div>
   )
 }
